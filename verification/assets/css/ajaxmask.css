@@ -1,0 +1,27 @@
+.ajax-mask {
+ background: none;
+}
+
+.ajax-mask .loading {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  min-width: 125px;
+  margin-left: -50px;
+  margin-top: -30px;
+  padding: 7px;
+  text-align: center;
+  color: #333;
+  font-size: 13px;
+  border: 1px solid #ddd;
+  background-color: #eee;  
+  vertical-align: middle;
+  -webkit-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+     -moz-box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);  
+}
+
+.ajax-mask span {
+  line-height:20px;
+  vertical-align: middle;
+}
